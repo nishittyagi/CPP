@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int a,b;
+	cin>>a>>b;
+	if(a==b){
+		cout<<"both number are equal";
+	}
+	else {
+		cout<<"number are not equal";
+	}
+	
+	return 0;
+}
