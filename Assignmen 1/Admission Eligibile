@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int maths;
+	int phy;
+	int chem;
+	cout<<"enter you maths , phy , chem  marks"<<endl;
+	cin>>maths>>phy>>chem;
+	int total=maths+phy+chem;
+	if(maths>=65&&phy>=55&&chem>=50&&total>=190||maths+phy>=140){
+	cout<<"you are Eligibile for admission";	
+	}
+	else{
+		cout<<"you are not Eligibile for admission";
+	}
+	return 0;
+     }
