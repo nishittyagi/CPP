@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a;
+	cin>>a;
+	if (a%--a!=0 && a%++a!=0 && a%a==0 && a%2!=0){
+		cout<<"the number is prime:";
+	}
+	else{
+		cout<<"number is not prime:";
+	}
+	return 0;
+}
