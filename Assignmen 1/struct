@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+struct person{
+	int id;
+	char name;
+	float salary;
+};
+int main() {
+	struct person joy;
+	struct person max;
+	
+	joy.id=555;
+	joy.name = 'j';
+	joy.salary= 1000000;
+	
+	max.id=333;
+	max.name = 'M';
+	max.salary= 1000;
+	
+	cout<<joy.name<<endl;
+	cout<<joy.id<<endl;
+	cout<<joy.salary<<endl;
+	cout<<"max name is="<<max.name<<endl;
+	cout<<"max id is="<<max.id<<endl;
+	cout<<"max salary is="<<max.salary<<endl;
+	
+	
+	return 0;
+}
