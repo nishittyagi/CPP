@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+int sqr(int a){
+	int c=a*a;
+	return c;
+}
+int main()
+{
+	int n,m;
+	cin>>n>>m;
+	cout<<sqr(n)<<" "<<sqr(m);
+	
+	
+	return 0;
+}
