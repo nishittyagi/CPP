@@ -1,0 +1,22 @@
+//https://www.codechef.com/problems/PAR2
+
+ #include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	int n;
+	cin>>t;
+	cin>>n;
+	for(int i=0;i<t;i++){
+	    if(n%2==0){
+	        cout<<"YES"<<endl;
+	    }
+	    else{
+	        cout<<"NO"<<endl;
+	    }
+	}
+	
+	
+	return 0;
+}
