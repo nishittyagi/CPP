@@ -1,0 +1,27 @@
+//https://www.codechef.com/problems/CHEFSCORE
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++){
+	    int n,x,y,m,count=0; //count is for 
+	    cin>>n>>x>>y;
+	    for(m=0;m<n;m++){
+	    m*x;
+	    if(m*x==y || m*x==y-x)count++;
+	   
+	    
+	    }
+	    	if(count>0)cout<<"yes"<<endl;
+	    	else if(y==0)cout<<"yes"<<endl;
+	    	else cout<<"no"<<endl;
+	     
+	    
+	}
+	
+	
+	return 0;
+}
