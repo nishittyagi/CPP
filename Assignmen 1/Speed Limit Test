@@ -1,0 +1,25 @@
+//https://www.codechef.com/problems/SPEEDTEST
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++){
+	   float a,x,b,y;
+	   cin>>a>>x>>b>>y;
+	   float S=a/x;
+	   float s=b/y;
+	if(S==s) cout<<"equal"<<endl;
+	else if (S>s)cout<<"alice"<<endl;
+	else if (S<s)cout<<"bob"<<endl;
+ 	 
+
+	    
+	}
+	
+	
+	
+	return 0;
+}
