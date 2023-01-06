@@ -1,0 +1,25 @@
+//https://www.codechef.com/problems/WORDLE
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	
+	for(int i=0;i<t;i++){
+	 string s;
+	 string t;
+	    cin>>s;
+	    cin>>t;
+    for(int n=0;n<s.size();n++){
+	        if(s[n]==t[n])cout<<"g";
+	        else cout<<"b";
+	    }
+     cout<<endl;
+	    
+	}
+	
+	
+	return 0;
+}
