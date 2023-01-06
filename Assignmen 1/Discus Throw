@@ -22,3 +22,31 @@ int main() {
 	
 	return 0;
 }
+
+
+//   with function 
+
+
+#include <iostream>
+using namespace std;
+int discus_Throw(int a,int b,int c){
+	int temp;
+	if(a>b && a>c) temp=a;
+    else if(b>a && b>c) temp=b;
+    else if(c>a && c>b) temp=c;
+    else if (a==b && a>c) temp=a;
+    else if (b==c && b>a) temp=b;
+    else if (a==c && c>b) temp=c;
+    else temp=a;
+     
+  return temp;
+	
+}
+
+int main() { 
+	int x,y,z;
+	cin>>x>>y>>z;
+	cout<< discus_Throw(x,y,z)<<endl;
+	
+	return 0;
+}
