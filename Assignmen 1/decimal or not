@@ -1,0 +1,41 @@
+// C++ program to implement
+// the above approach
+
+#include <bits/stdc++.h>
+using namespace std;
+
+// Function to check if N is
+// equivalent to an integer
+bool isInteger(double N)
+{
+
+	// Convert float value
+	// of N to integer
+	int X = N;
+
+	double temp2 = N - X;
+
+	// If N is not equivalent
+	// to any integer
+	if (temp2 > 0) {
+		return false;
+	}
+	return true;
+}
+
+// Driver Code
+int main()
+{
+	double N = 1.5;
+
+	if (isInteger(N)) {
+
+		cout << "YES";
+	}
+	else {
+
+		cout << "NO";
+	}
+
+	return 0;
+}
