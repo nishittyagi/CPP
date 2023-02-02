@@ -1,0 +1,21 @@
+//https://www.ideone.com/L0hjU3
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n,m,f=0;
+	cin>>n;
+	cin>>m;
+	int A[n];
+	int count=0;
+	for(int i=0;i<n;i++){
+		cin>>A[i];
+		if(A[i]==m){cout<<"yes";
+		f=1;}
+		
+	}
+	if(f==0)cout<<"no";
+	
+	return 0;
+}
